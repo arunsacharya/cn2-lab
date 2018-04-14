@@ -11,7 +11,7 @@ $ns trace-all $fin
 set nfin [open pgm3.nam w]
 $ns namtrace-all $nfin
 
-#creating trace file for xgraph
+#creating trace files for xgraph
 set cwnd1 [open xgraph3a.tr w]
 set cwnd2 [open xgraph3b.tr w]
 
