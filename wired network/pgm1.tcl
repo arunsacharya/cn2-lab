@@ -11,7 +11,7 @@ $ns trace-all $fin
 set nfin [open pgm1.nam w]
 $ns namtrace-all $nfin
 
-#creating nodes
+#creating 4 nodes
 set n0 [$ns node]
 set n1 [$ns node]
 set n2 [$ns node]
