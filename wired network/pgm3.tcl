@@ -29,6 +29,8 @@ set n10 [$ns node]
 
 #creating lan connection
 set lan [$ns newLan "$n1 $n2 $n3 $n4 $n5  $n6 $n7 $n8 $n9 $n10 "  10Mb 2ms LL Queue/DropTail Channel]
+
+#creating channel (duplex-link between node5 and node6)
 $ns duplex-link $n5 $n6 1Mb 10ms DropTail
 
 #attaching TCP agent to the node1 and node8
