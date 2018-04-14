@@ -61,7 +61,7 @@ set sink [new Agent/TCPSink]
 $ns attach-agent $n4 $sink
 
 $ns connect $tcp $sink
-$tcp set fid_ 1
+$tcp set fid_ 1	#assigning color to the flow of packets
 
 #attaching FTP application over node0
 set ftp [new Application/FTP]
