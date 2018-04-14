@@ -15,7 +15,7 @@ $ns namtrace-all $nfin
 set cwnd1 [open xgraph2a.tr w]
 set cwnd2 [open xgraph2b.tr w]
 
-#creating nodes
+#creating 4 nodes
 set n0 [$ns node]
 set n1 [$ns node]
 set n2 [$ns node]
