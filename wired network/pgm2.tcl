@@ -71,7 +71,7 @@ proc plotWindow {tcpSource file} {
 	$ns at [expr $now+$time] "plotWindow $tcpSource $file" 
 }
 	
-	#$ns at 0.2 "plotWindow $tcp0 $cwnd1"
+	$ns at 0.2 "plotWindow $tcp0 $cwnd1"
 	$ns at 1.2 "plotWindow $tcp1 $cwnd2"
 
 proc finish { } {
