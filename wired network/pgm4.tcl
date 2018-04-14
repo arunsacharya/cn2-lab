@@ -1,4 +1,5 @@
 #4. Set up the topology with 6 nodes, and demonstrate the working of Distance vector routing protocol. The link between 1 and 4 breaks at 1.0ms and comes up at 3.0ms. Assume that the source node 0 transmits packets to node 4. Plot the congestion window when TCP sends packets via other nodes. Assume your own parameters for bandwidth and delay. 
+
 #			n1--------------n4
 #			/		 \ 
 #		       /  		  \
